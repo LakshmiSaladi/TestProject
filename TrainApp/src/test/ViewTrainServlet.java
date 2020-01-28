@@ -26,8 +26,11 @@ public void doGet(HttpServletRequest req,HttpServletResponse res)throws ServletE
 			pw.println("Sorry! No Trains found");
 		}else {
 			pw.println("list of trains");
-			System.out.println(al);
-		}
+			al.forEach((k)->{
+			TrainBean tb=(TrainBean)k;
+			pw.println(tb.getTno()+" "+tb.getTname()+" "+tb.getFstation()+" "+tb.getTstation()+" "+tb.getAvl());
+		});
+	}
 	}
 }
 }
