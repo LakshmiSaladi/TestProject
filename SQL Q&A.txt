@@ -1,0 +1,50 @@
+Delete-Deletes the rows and supports 'where' clause,slower when compared to 'Truncate'.Can be roll back
+Drop-Deletes the Table data and Table structure also.Cannot be rollback
+Truncate-Deletes All the rows from a table but not allows 'where' clause.Faster when compared to 'Delete'.Cannot be rollback
+
+Difference between Group By and Order By:-
+------------------------------------------
+Group By is used to filter the records and works with aggregation functions like sum(),count(),min(),max(),Avg()..
+Order By is used to sort the records and works with ASC or DESC.
+
+After Group By then Order By Will come.
+
+SQL Constraints:-
+----------------
+Not Null:- Means The column does not allow null values.
+
+UNIQUE:- Means the column does not allow Duplicate values and allows one null value.
+
+Primary Key:- Combination of Not Null and Unique key which uniquely identifies a row.
+
+Foreign Key:- It ensures relationship between tables by referencing primary or unique keys.
+
+CHECK:- It added to a column and that column date should match the CHECK condition.
+
+DEFAULT:- The column have a default value while inserting or when none is provided.
+
+INDEX:-improves query performance.
+
+Auto-increment:-Automatically generates a unique value for columns like primary or unique keys.
+
+
+Difference between Where and Having:-
+-------------------------------------
+Where--can be used without Group By and first performs group By and  then aggregation.
+Having--Need to use with Group By and first performs aggregation and then group By.
+
+Joins:-Used to Take records from two or more tables and combine them together.
+Inner Join
+Outer Join
+left Join
+right Join
+cross join
+self join
+
+
+
+
+byte 1 byet
+short,char-2
+int,float-4
+long,double-8

@@ -1,0 +1,217 @@
+1)Salary expectations
+ Based on my experience and skillset and the market standards for this role i am expecting between 8-9LPA
+
+2)You dodnt have enough work experience
+ I understand your concern while i may not have extensive experience i have strong grasp of the necessary skills and  a proven ability to learn quickly could u please 
+ tell me any training programs that the company offer to help new employees get up to speed? i eaager to wait to grab such opportunities to ensure i can contribute 
+ effectively
+
+3)How do u handle stressful situations?
+  WHEN i face stressful situation i try to break down the situation into smaller and more manageable tasks and prioritize them successfully
+  During stressful situations i keep an open mind and look for creative solutions that can help me work through the problem i also ensure that i take regular breaks to give myself to relax and refocus.
+  I thrive underpressure and fight tight deadlines motivating.I prioritize tasks based on urgency and importance,breaking down projects into manageable steps. i also ensure clear communication with my team to delegate tasks
+  effectively,During peak periods i stay focusedby setting short term goals and taking regular breaks to maintain productivity.
+
+4)Tell me about your self?
+   Thank you for the opportunity to introduce myself,My name is XXX, and i graduated with a b.tech degree.I started My carrier as a Java developer in APTOnline limited and which is my current company. and I have 4 years of experience in it,
+   In my current role, I am responsible for developing and maintaining the web applications and creating REST APIs.I have extensive experience with java8,struts,spring boot 
+   Additionally I have earned an oracle certification as a java associate. Along with my work responsibilities, i am also
+   pursuing course on microservices to enhance my skills and knowledge.
+
+5)Why do u want to work for our company?
+   Research some for the company ur attending for.
+   
+
+6)Describe a challenging project u worked on and how u handle it?
+  A)In my Previous role,we faced a tight deadline for a crucial client project.The challenge was quality and speed.so, We identified the key bottlenecks and 
+ restructured the tasks and collaborated with the team to streamline our processes.The result?We not onlt met the deadline 
+ but also exceeded the client expectations.
+ EX:-Changed Framework from struts to spring boot for handling Non -Functional requirements that make it easy.
+
+
+7)Can u provide an example of how u added value to a client project?
+  A) I have taken a new module 
+   where I need To address this, I first conducted a thorough review of the existing codebase and database schema. 
+   I identified that some of the slow performance was due to inefficient database queries and redundant data fetching. I took the following steps to improve the system:
+   like added ajax calls instead of reloading the page
+
+8)What are ur strenghts and weaknesses?                                               
+ A) strenghts :-
+ -------------
+  One of my key strengths is my ability to learn from others, regardless of their age or experience. I believe that learning is a continuous process, and valuable 
+  insights can come from both seasoned professionals and those who are just starting their careers. From more experienced individuals,I gain deep knowledge and 
+  practical wisdom that helps me avoid common pitfalls. At the same time, younger team members often bring fresh perspectives, new technologies, and innovative 
+  approaches that challenge my thinking and inspire me to keep evolving. I always strive to be open-minded and learn from anyone around me, 
+  which has helped me grow both personally and professionally.
+
+
+
+  Weakness:-
+  ----------
+ I tend to be a perfectionist when working on tasks, always trying to make everything perfect. While this helps me produce good work, it can sometimes make me
+ spend more time on a project than needed and cause stress. To handle this, I’ve been learning to balance perfection with getting things done on time by setting 
+ realistic goals and focusing on the most important tasks. I also ask for feedback from others to make sure I’m on track, which helps me keep high standards without
+ overworking myself. This has improved my time management and reduced stress, while still delivering good results on time."
+
+
+
+
+
+9)How do u stay updated with industry trends and changes?
+  A)regularly follow reputable tech blogs and websites like Stack Overflow, Medium, and Dev.to, which offer insights into new technologies, best practices,
+  and emerging tools. I also keep an eye on Java-specific resources like the Oracle blog and Spring’s official documentation to stay updated on updates, new features, and changes in the Java ecosystem.
+  furthermore, I take online courses on platforms like Coursera, Udemy, or Pluralsight to learn new technologies or refine my existing skills.
+
+10)Why should we hire you?
+   A) 
+
+11)Where do u see urself in 5 years?
+
+12)why do u leave ur previous job
+   A) My current project is finished and i am on bench
+
+
+14) Tell about Current Project?
+    Use for application for end users
+    Project domain
+    Technology used
+    Model like waterfall,agile
+
+15) What are ur roles and Responsibilities in ur project?
+    Estimation
+    Design
+    Development
+    Unit test cases
+    Deployment
+    BugFixing
+    Supporting the Production  environment by fixing the bugs.
+
+16) Explain the technical design of ur project?
+    Architecture of project,the design patterns we used.
+    like dependency injection,loose coupling,jwt for security junit for testing
+
+
+17) Rate ur Technical skills from 1 to 10?
+    Rate between 5 to 9
+    there is much more to learn 
+
+18) Willing to work on Weekends?
+     Yes,If needed i will be there with the project at any point.
+
+19) Requirement changed at last moment of project what u will do?
+
+20) Extra WorkLoad?
+   A)
+
+21) Asked to learn new Technology?
+   A)I enjoy learning new technologies and see it as an opportunity to grow both professionally and personally. When I'm asked to learn something new, I typically 
+   start by doing some research and understanding the core concepts. I look for online resources like tutorials, courses, and documentation. I also practice by 
+   building small projects to solidify my understanding. If I get stuck, I don’t hesitate to reach out to colleagues or online communities for guidance. Over time, 
+   I've learned that consistent practice and seeking help when needed helps me master new tools quickly.
+
+22)Project with tight deadline?
+  A)Handling tight deadlines is about being prepared and organized. When I have a deadline approaching, I first assess the project's requirements and break it down 
+  into clear, actionable steps. I focus on delivering the most important parts of the project first and make sure to stay on schedule. I try to eliminate distractions
+  and stay focused, and if the project is really demanding, I am ready to work extra hours to meet the deadline. Throughout the project, I keep track of my progress and make adjustments if needed to stay on course."
+
+23) what is ur notice period?Is it negotiable
+A) Yes,Negotiable because the project is going to finished soon.
+
+24) Do u have any other offer in hand 
+A) As of now i do not have any offer
+
+25) What is ur current and expected ctc?
+A) 4.2 and 8 LPA
+
+26) What are ur salary expectations and could u justify?
+  A) Over the years i really upskilled myself. I believe based on the market standards for this particular role and my experience and
+  skill set a salary  range between 8 to 10 LPA would be fair and appropriate.
+
+27)Can you describe the flow of your project from start to finish?
+
+
+  A)The first step in our project is to understand the business requirements. 
+    I work closely with stakeholders, such as business analysts, to gather detailed requirements.
+    This includes understanding the project’s objectives, user needs.. 
+    During this phase, I may also collaborate with the team for analysis.
+    Once the requirements are clear,
+    hoosing appropriate frameworks, tools, and technologies. For example, if it's a web application, I may use Spring Boot for the backend, 
+    I may consider non-functional requirements such as security, error handling, and performance at this stage.
+    I write clean, modular, and maintainable code while following coding standards. I regularly commit the code to version control (e.g., Git) and collaborate with the team on code reviews to ensure quality.
+   After development, I test the application through unit and integration tests to ensure everything works correctly.
+   Once it's tested, I deploy it to a staging environment for user acceptance testing, and after approval,
+   I deploy it to production. Post-deployment, I monitor the application and handle any maintenance or bug fixes. Throughout the process,
+   I focus on collaboration, communication, and continuous improvement to ensure the project meets its goals and user needs.
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Remote.co
+jobsforher.com
+remote|Ok
+wwr
+

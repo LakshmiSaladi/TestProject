@@ -1,0 +1,218 @@
+1)In how many ways we can create an object?
+A)5 ways
+    ----Using new Student s=new Student();-Common way for creating a object
+    ----Using Class.forName()  Student s= (Student) Class.forName("Student").newInstance();--For dynamic class loading
+    ----Using Clone()-Creates a new object by creating existing objects data and need that class needs to implement Cloneable interface
+        Student s=new Student();
+        Student ss=(Student)s.clone();    
+    ---Using object Deserialization by implementing Serializable interface
+   -----Using a Factory method means a Static method
+          className.staticMethod();----->staticMethod{return new Instance();}    
+
+2)Java Features?
+3)What is JDK,JRE,JVM,JIT   
+4)Editions of Java? 
+  A)The Term 'edition' is a set of libraries,tools and features.
+    --Java SE(Standard Edition) 21
+      -----------------------------
+      Purpose:-General-purpose applications,desktop software,utilities,small server-side apps.
+      Real world Examples:-Desktop Applications(Eclipse IDE,Intellij IDE)
+                           File Management Tools(7-Zip for File compression)
+                           Utilities(Apache Commons Libraries,JDownloader)
+    --Java EE(Enterprise Edition) (or) Jakarta EE (After beign transferred to the eclipse foundation).10
+      ---------------------------------------------------------------------------------------------------
+      Purpose:-Enterprise-level applications,web-based applications,large-scale systems.
+      Real-World Examples:-Online Banking,E-commerce Platforms,Customer Relationship Management Systems(CRM),Enterprise Resource Planning(ERP) Systems.
+
+    --Java ME(Micro Edition)8
+      ------------------------
+      Purpose:-Embedded Systems,Mobile Phones,IOT(Internet of things) devices and is ideal for devices with limited resources.
+      Real World Examples:-Mobile devices,IOT devices,Set-Top Boxes
+    --Java Fx
+     ---------
+      Purpose:-which is a part of Java SE with rich in graphical interface especially for desktop applications..
+      Real world example:-Tableau,Jstock,Scene Builder
+
+    --Java Card
+     -----------
+      Purpose:-Embedded,Secure applications on smart cards,Security tokens,SIM Cards.
+      Real world examples:-SIM Cards,Banking Cards(EMV debit and credit cards)
+      ID Cards: Secure identity cards for access control, employee identification, or government IDs often use Java Card technology to protect and authenticate data.
+
+5)Difference between Object Reference and Hashcode?
+  A)Reference is address of the memory location in heap memory i.e., every time we create an object it will store in unique location.we cant get Reference number.
+    hashcode() is a numeric value which will be stored in hash based collections like hashmap..., ex:-obj.hashcode()-->89898
+    toString() is a String Representation of an Object.obj.toString()--->Person@123.
+
+6)Difference between equals and ==?
+  A)equals -->Checks for the value
+    ==-->Checks both the value and reference.
+
+7)Can a class and interface both generates a .class file?\
+  A)Yes,Both a class and interface can generate a .class file after compilation
+    javac className.java 
+    javac InterfaceName.java
+   Both the above commands compile and generates a .class file.
+   But,the class with main() method only we can run.
+
+
+8)String Vs StringBuffer Vs StringBuilder?
+  A)All are used for String operations.
+    But it has Difference in Performance,Mutability,Thread-Safety
+    Mutability:-  String is Immutable because once string created if we do any changes a new String will be created.
+                  StringBuffer and StringBuilder are Mutable because if we add any changes the existing string object will be modified.
+    
+    Performance:- String had poor performance because it creates a new Object when it modified.
+                  StringBuffer has More Performance then String.
+                  StringBuilder has More Performance then StringBuffer.     
+
+    Thread Safety:- String and StringBuilder are Not Synchronized and are not thread Safe.
+                    StringBuffer is Synchronized and Thread Safe.
+    
+    UseCase:- String when Constants need to declare.
+              StringBuffer Needs Multiple modifications in loop and Thread safe
+              StringBuilder Needs Multiple modifications in loop and Not Thread safe
+
+
+9)What is java?
+A) java is a high level object oriented programming language
+    high level because first the code is converted to byte code which is a intermediate language and then it converted to machine or native code as low level language
+
+10)if we dont want our object to not serialize we should use 'transient' there
+
+11)Serializable,Cloneable,Remote,EventListner all are marker interfaces they said about metadata like an annotation.
+  Serializable will said that the objects are serialized and deserialized to store objects over network or database and used for later use
+  they use SerialversionUID in deserialization for matching the version to match the class for which it is serialized
+   the key idea is to use as like a signal or flag even it doesnot have anything
+  Cloneable interface indicates that the class that implements cloneable will have permission to use .clone() to copie the objects otherWise it throughs cloneNotSupportedError
+
+=========================19-02-2025==========================================
+i had an interview on java developer with 5 years of experience can u give complete tricky and basic medium level questions on exception handling 
+Exception Handling:-
+===================
+1)Can you explain the types of Error and Exception classes?
+Throwable
++-- Error
+¦   +-- LinkageError
+¦   +-- OutOfMemoryError
+¦   +-- StackOverflowError
+¦   +-- VirtualMachineError
++-- Exception
+    +-- IOException
+    +-- SQLException
+    +-- ClassNotFoundException
+    +-- RuntimeException
+    ¦   +-- ArithmeticException
+    ¦   +-- ArrayIndexOutOfBoundsException
+    ¦   +-- NullPointerException
+    ¦   +-- IllegalArgumentException
+    ¦   +-- NumberFormatException
+    +-- InterruptedException
+    +-- ParseException
+    +-- NoSuchMethodException
+
+2)What is the difference between Error and Exception in Java?
+ Errors are typically severe issues that indicate a problem with the environment or system, and they usually cannot be handled.
+
+ Exceptions are less severe and can be anticipated and handled by the program, either checked at compile time (checked exceptions) or occurring during runtime (unchecked exceptions).
+
+3)What are the different types of exceptions in Java?
+ Checked Exceptions (must be handled or declared):
+IOException
+SQLException
+ClassNotFoundException
+ParseException
+InterruptedException
+NoSuchMethodException
+Unchecked Exceptions (runtime exceptions, not required to be handled):
+NullPointerException
+ArithmeticException
+ArrayIndexOutOfBoundsException
+IllegalArgumentException
+NumberFormatException
+ClassCastException
+IndexOutOfBoundsException
+Error Classes (serious system-level issues):
+OutOfMemoryError
+StackOverflowError
+VirtualMachineError
+Key Differences:
+Checked Exceptions must be handled or declared, and they typically represent recoverable conditions.
+Unchecked Exceptions (Runtime Exceptions) are typically due to programming 
+ bugs and are not required to be handled.
+Errors represent severe issues with the JVM or the environment and are usually not something that the program can recover from.
+
+4)When to Use Try-with-Resources
+For managing resources that need to be closed: Any resource that implements AutoCloseable (such as files, database connections, streams, etc.) should be used with try-with-resources to ensure they are closed automatically.
+For better exception handling: It simplifies exception handling when dealing with multiple exceptions, especially when there’s a chance of both resource-related exceptions and logic-related exceptions.
+To prevent resource leaks: With try-with-resources, you eliminate the need for manual resource cleanup and reduce the risk of resource leaks.
+
+5)What happens if an exception is thrown in a multi-threaded environment?
+
+Does it affect the other threads? How is it handled?
+
+mvn clean validate compile test package install deploy
+
+
+
+Git:- 
+===
+                      init                  add             commit           push 
+working directory     ----- staging area ------- local Repo -----Remote Repo--------
+Repository:-
+-------------
+Local Repository:-
+-----------------
+Remote Repository:-
+-----------------
+
+Staging Area:-
+---------------
+Work Directory:-
+--------------
+
+Create a project in sts in D in ur local machine that is called working directory
+
+Now go to that folder path and open cmd to initialize to git ----git init
+
+to check whether git working or not use or to know the status ---git status
+
+create a new file in ur project like file.txt----u can check the status --git status (untracked files)
+
+untill now i am having "working directory"
+
+now i had two files but  i want only two file to send to local repository so i need to use staging area--
+from working directory to staging area we will send single single files only-- git add file.txt
+                                                                            -- git status
+                  now, file.txt in status will not come under untracked it is under changes to be committed 
+from working directory to staging area we will send single single files only-- git add file1.txt
+                                                        Now there are two  files in git stage
+now to move from git stage to git local Repository  we have to use---git commit -m "file and file1.txt are moved to local"
+                                                                         -- git status
+Go to github and create a new Remote Repository---https://gitlab.com/LakshmiSaladi/springbootlearnings.git
+
+now we have to tell our local repo to know about our remote repo by using this command----- git remote add origin https://gitlab.com/LakshmiSaladi/springbootlearnings.git
+
+Now from local to remote we have to push the above two files ----git branch------(branch name will come)
+                                                           ---git push -u origin master
+
+
+Now u can check code in github :-----
+
+Now About Branches:-
+====================
+Branch main/master-----This is the final code to deploy
+
+some other Branches will be there like--- Dev1Lakshmi------After pushing data to it then we have to raise a PR(pull Request) to main/master branch
+
+how to create a Dev1lakshmi Branch-----go to local repo path in cmd----git checkout -b Dev1Lakshmi------->to craete a new branch
+                                                                       git checkout main-------------->for moving to existing branch
+                                  check the branches created------git branch---------->(main.master and Dev1Lakshmi will come)
+                                        -------->git push --set -upstream Dev1Lakshmi
+                   
+                               Summary of Key Git Commands:
+git init: Initialize a new Git repository.
+git add .: Stage all files for commit.
+git commit -m "message": Commit the staged files with a message.
+git remote add origin <URL>: Link your local repository to a GitLab remote repository.
+git push -u origin <branch>: Push your changes to GitLab.                
